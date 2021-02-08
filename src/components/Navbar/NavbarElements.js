@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-import {GiSteak} from "react-icons/gi";
+import { GiSteak } from "react-icons/gi";
 
 export const Nav = styled.nav`
   background: red;
@@ -18,7 +18,7 @@ export const NavLink = styled(Link)`
     display: flex;
     align-items: center
     text-decoration: none;
-    curosr: pointer;
+    cursor: pointer;
 
     @media screen and (max-width: 400px) {
         position: absolute;
@@ -28,19 +28,21 @@ export const NavLink = styled(Link)`
 `;
 
 export const NavIcon = styled.div`
-display: block;
-position: absolute;
-top: 0;
-right: 0;
-cursor: pointer;
-color: #fff;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 40px;
 
-p {
-  transform: translate(-175%, 100%)
-  font-weight: bold;
-}
+  p {
+    transform: translate(-175%, 100%);
+    font-weight: bold;
+  }
 `;
 export const Bars = styled(GiSteak)`
-font-size: 2rem,
-transform: translate(-50%, -15%);
+  position: absolute;
+  top: 20px;
+  font-size: 2rem;
 `;
