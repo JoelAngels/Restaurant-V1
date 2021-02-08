@@ -36,7 +36,8 @@ export const HeroItems = styled.div`
 `;
 
 export const Heroh1 = styled.div`
-font-size: clamp(2.5rem, 10vw, 5rem)
+font-size: clamp(2.5rem, 10vw, 5rem);
+font-family: 'Rozha One', serif;
 margin-bottom: 1rem;
 box-shadow: 3px 5px #e9ba23;
 letter-spacing: 3px;
