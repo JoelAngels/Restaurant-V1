@@ -51,6 +51,7 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtn = styled.button`
+font-family: "Rozha One", serif;
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
@@ -60,7 +61,7 @@ export const HeroBtn = styled.button`
 
   &:hover {
     background: #ffc500;
-    transition: 0.2s ease-out;
+    transition: 0.5s ease-in-out;
     cursor: pointer;
     color: #000;
   }

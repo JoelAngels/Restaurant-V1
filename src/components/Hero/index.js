@@ -27,12 +27,14 @@ const Hero = () => {
           <HeroH1>Fabulous Steak</HeroH1>
           <Heroh2> Call (215) - 468 - 6550</Heroh2>
           <HeroP>
-            <span style={{ color: "black" }}>Opening Hours</span> <br></br>{" "}
-            Mon-Fri: 6:00pm - 10:00pm,{" "}
+            <span style={{ color: "black" }}>Opening Hours</span> <br></br>
+            Mon-Fri: 6:00pm - 10:00pm,
             <span style={{ color: "magenta" }}>Weekends: </span>
             8:00pm - 10:00pm
           </HeroP>
-          <HeroBtn>Place Order</HeroBtn>
+          <HeroBtn  onClick={() => {
+    window.open("https://www.opentable.com/nearme/steakhouse-restaurants-near-me")
+  }}>RESERVE</HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
