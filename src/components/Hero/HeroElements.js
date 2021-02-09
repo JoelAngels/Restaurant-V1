@@ -35,7 +35,7 @@ export const HeroItems = styled.div`
 `;
 
 export const Heroh1 = styled.div`
-  font-size: clamp(1.5rem, 5vw, 5rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   font-family: "Rozha One", serif;
   position: relative;
   margin-bottom: 4rem;
@@ -62,6 +62,10 @@ export const HeroP = styled.div`
   font-size: clamp(12.8px, 1.5vw, 1rem);
   margin-top: 2rem;
   color: #adadad;
+
+  @media screen and (max-width: 600px) {
+   display: none;
+  }
 `;
 
 export const HeroBtn = styled.div`
