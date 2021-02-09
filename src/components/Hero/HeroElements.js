@@ -9,15 +9,15 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroContent = styled.div`
-float: right;
+  float: right;
   height: calc(100vh - 80px);
   max-height: 100%;
   width: 100vh;
-  padding: 0rem calc((100vw - 1300px) / 2);
 `;
 
 export const HeroItems = styled.div`
   display: flex;
+  padding: 0rem calc((100vw - 1300px) / 2);
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
@@ -36,11 +36,13 @@ export const HeroItems = styled.div`
 `;
 
 export const Heroh1 = styled.div`
-font-size: clamp(2.5rem, 10vw, 5rem);
-font-family: 'Rozha One', serif;
-margin-bottom: 1rem;
-box-shadow: 3px 5px #e9ba23;
-letter-spacing: 3px;
+  white-space: nowrap;
+  font-family: "Rozha One", serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 4rem;
+  margin-bottom: 5rem;
 `;
 
 export const Heroh2 = styled.div`
@@ -51,14 +53,22 @@ letter-spacing: 3px;
 `;
 
 export const Heroh5 = styled.div`
-font-size: clamp(2.5rem, 10vw, 5rem)
-margin-bottom: 1rem;
-box-shadow: 3px 5px #e9ba23;
-letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 0.7rem;
+  margin: 1rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  // font-size: clamp(2.5rem, 10vw, 5rem)
+  // margin-bottom: 1rem;
+  // //box-shadow: 3px 5px #e9ba23;
+  // letter-spacing: 3px;
 `;
 
 export const HeroP = styled.div`
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: 12.8px;
+  font-weight: 100;
   margin-bottom: 2rem;
 `;
 
