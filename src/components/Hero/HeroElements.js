@@ -2,7 +2,9 @@ import styled from "styled-components";
 import ImgBg from "../../images/prime-steak_1.jpg";
 
 export const HeroContainer = styled.div`
-  background: url(${ImgBg});
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0, #002d77 100%);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0, #000 100%),
+    url(${ImgBg});
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -42,14 +44,27 @@ export const Heroh1 = styled.div`
   color: white;
   font-weight: 300;
   font-size: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 `;
 
 export const Heroh2 = styled.div`
-font-size: clamp(2.5rem, 10vw, 5rem)
-margin-bottom: 1rem;
-box-shadow: 3px 5px #e9ba23;
-letter-spacing: 3px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Rozha One", serif;
+  // font-size: clamp(2.5rem, 10vw, 5rem)
+  //margin-bottom: 5rem;
+  // box-shadow: 3px 5px #e9ba23;
+  // letter-spacing: 3px;
+`;
+
+export const Heroh4 = styled.div`
+margin-bottom: 10px;
+color: #ADADAD;
+font-size: 12.8px;
+font-weight: 100;
+}
 `;
 
 export const Heroh5 = styled.div`
@@ -67,24 +82,11 @@ export const Heroh5 = styled.div`
 `;
 
 export const HeroP = styled.div`
-  font-size: 12.8px;
+  margin-top: 4em;
+  font-size: 100%;
   font-weight: 100;
-  margin-bottom: 2rem;
+  color: #adadad;
+  font-family: "Poppins", sans-serif;
 `;
 
-export const HeroBtn = styled.div`
-  font-size: 1.4rem;
-  padding: 1rem 4rem;
-  border: none;
-  background: #e31837;
-  color: #fff;
-  transition: 0.2s ease-out;
-
-  &hover: {
-    background: #ffc500;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-    color: #000;
-  }
-`;
 //background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0.0.0.1)),
