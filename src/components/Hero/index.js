@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <HeroContainer>
       <Navbar />
-      {/**  <Sidebar /> */}
+       <Sidebar /> 
       <HeroContent>
         <HeroItems>
           <HeroH1>Fabulous Steak</HeroH1>
