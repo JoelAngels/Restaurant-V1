@@ -8,21 +8,19 @@ const Products = ({heading, data}) => {
               <ProductWrapper>
                   {data.map((product, index) => {
                       return (
-                          
-                          <ProductCard Key = {index}>
-                          <ProductImg src = {product.img} alt = {product.alt}/>
-                          <ProductInfo>
-                              <ProductTitle>{product.name}</ProductTitle>
-                              <ProductDesc>{product.desc}</ProductDesc>
-                              <ProductPrice>{product.price}</ProductPrice>
-                              <ProductButton>{product.button}</ProductButton>
-                          </ProductInfo>
-                          </ProductCard>                  
+                        <ProductCard key = {index}>
+                        <ProductImg src = {product.img} alt = {product.alt}/>
+                        <ProductInfo>
+                            <ProductTitle>{product.name}</ProductTitle>
+                            <ProductDesc>{product.desc}</ProductDesc>
+                            <ProductPrice>{product.price}</ProductPrice>
+                            <ProductButton>{product.button}</ProductButton>
+                        </ProductInfo>
+                        </ProductCard>
                       );
                   })}
               </ProductWrapper>
       </ProductsContainer>
-  )
-};
+  )};
 
 export default Products;

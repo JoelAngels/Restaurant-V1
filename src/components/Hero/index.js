@@ -14,7 +14,7 @@ import {
 //isOpen function when clicked
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const toggle = () => {
     setIsOpen(!isOpen)
   }
@@ -33,12 +33,11 @@ const Hero = () => {
             8:00pm - 10:00pm
           </HeroP>
           <HeroBtn  onClick={() => {
-    window.open("https://www.opentable.com/nearme/steakhouse-restaurants-near-me")
-  }}>RESERVE</HeroBtn>
+            window.open("https://www.opentable.com/nearme/steakhouse-restaurants-near-me")
+            }}>RESERVE</HeroBtn>
         </HeroItems>
       </HeroContent>
     </HeroContainer>
-  );
-};
+  )};
 
 export default Hero;

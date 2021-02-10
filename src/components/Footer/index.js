@@ -23,32 +23,28 @@ const Footer = () => {
                   href="https://www.facebook.com/profile.php?id=100013647884230"
                   target="_blank"
                   aria-label="Facebook"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <FaFacebook />
                 </SocialIconLink>
                 <SocialIconLink
                   href="https://www.instagram.com/joel__angel/"
                   target="_blank"
                   aria-label="Instagram"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <FaInstagram />
                 </SocialIconLink>
                 <SocialIconLink
                   href="https://www.linkedin.com/in/joel-angel-4b05141a3//"
                   target="_blank"
                   aria-label="Linkedin"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <FaLinkedin />
                 </SocialIconLink>
                 <SocialIconLink
                   href="https://twitter.com/_joelangel"
                   target="_blank"
                   aria-label="Twitter"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <FaTwitter />
                 </SocialIconLink>
               </SocialIcons>

@@ -27,7 +27,7 @@ export const productData = [
   {
     img: product3,
     alt: "Steak",
-    name: "Marinated In Exsistance",
+    name: "Marinated In Existence",
     desc: "Premium Angus Beef Filet Mignons,Maryland Crab Cakes, Garlic powder",
     price: "$174.95",
     button: "Add to Cart",
@@ -41,7 +41,7 @@ export const productDataTwo = [
     name: "Brownie Hun",
     desc:
       "peanut butter chips,diced marshmallows, caramel pieces, shredded coconut, dried fruits (dates, blueberries, cranberries, raisins),crushed nuts (peanuts, walnuts, pecans, almonds,)",
-    price: "$9:99",
+    price: "$9.99",
     button: "Add to Cart",
   },
   {
@@ -49,8 +49,8 @@ export const productDataTwo = [
     alt: "Donuts",
     name: "Doughlicious",
     desc:
-      "Original Glazed, Dark Choclate Glazed, Milk Choclate Glazed, Cinnnamon Sugar, Rainbow Sprinkles, Death By Choclate, Double Choclate Crunch, Custard Madness, Almond Overload, Nutella",
-    price: "$10.0",
+      "Original Glazed, Dark Chocolate Glazed, Milk Chocolate Glazed, Cinnamon Sugar, Rainbow Sprinkles, Death By Chocolate, Double Chocolate Crunch, Custard Madness, Almond Overload, Nutella",
+    price: "$10.00",
     button: "Add to Cart",
   },
   {
@@ -58,7 +58,7 @@ export const productDataTwo = [
     alt: "Ice Cream",
     name: "Planet Yogurt",
     desc:
-      "Drizzle Fugue ice cream, Spread with whipped topping stabilizers, Sprinkled with remaining cookie crumbs, Topped with white choclate pieces and macadamia nuts, fruits, gelatin Strawberry and Rocky Road",
+      "Drizzle Fugue ice cream, Spread with whipped topping stabilizers, Sprinkled with remaining cookie crumbs, Topped with white chocolate pieces and macadamia nuts, fruits, gelatin Strawberry and Rocky Road",
     price: "$12.95",
     button: "Add to Cart",
   },

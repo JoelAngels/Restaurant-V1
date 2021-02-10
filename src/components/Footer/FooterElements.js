@@ -15,7 +15,7 @@ max-width: 1300px;
 margin: 0 auto;
 `;
 export const SocialMedia = styled.section`
-max-wdith: 1300px;
+max-width: 1300px;
 width: 100%;
 `;
 
