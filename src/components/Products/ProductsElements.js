@@ -36,8 +36,13 @@ export const ProductsHeading = styled.h1`
 
 export const ProductTitle = styled.h2`
   font-family: "Rozha One", serif;
+  cursor: pointer;
   font-weight: 400;
   font-size: 1.5rem;
+  &:hover {
+    border-bottom: 1px solid white;
+    transition: all 3s ease-in-out;
+  }
 `;
 
 export const ProductInfo = styled.div`
@@ -51,6 +56,7 @@ export const ProductInfo = styled.div`
 
 export const ProductDesc = styled.p`
   margin-bottom: 1rem;
+  position: relative;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
 `;
