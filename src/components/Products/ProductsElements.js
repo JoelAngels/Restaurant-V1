@@ -23,7 +23,7 @@ export const ProductCard = styled.div`
 
 export const ProductImg = styled.img`
   height: 300px;
-  //min-width: 300px;
+  min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
 `;
@@ -52,6 +52,7 @@ export const ProductInfo = styled.div`
 export const ProductDesc = styled.p`
   margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
+  font-weight: 100;
 `;
 
 export const ProductPrice = styled.p`

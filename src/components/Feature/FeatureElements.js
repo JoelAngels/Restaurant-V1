@@ -40,5 +40,10 @@ export const FeatureContainer = styled.div`
     display: block;
     //   margin-bottom: 1rem;
     // font-size: clamp(1rem, 3vw, 2rem);
-  }
+  },
+  @media only screen and (min-width: 0px)
+.container {
+    width: 95%;
+    max-width: 1200px;
+}
 `;
