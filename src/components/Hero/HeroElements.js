@@ -42,8 +42,9 @@ export const HeroH1 = styled.h1`
 `;
 
 export const Heroh2 = styled.h2`
-font-weight: 300
-color: white`;
+  font-weight: 300;
+  color: white;
+`;
 
 export const HeroP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);
@@ -51,7 +52,7 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtn = styled.button`
-font-family: "Rozha One", serif;
+  font-family: "Rozha One", serif;
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
